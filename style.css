@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+@font-face {
+    font-family: "Merriweather Regular";
+    src: url(/assets/Merriweather-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Merriweather Bold";
+    src: url(/assets/Merriweather-Bold.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border: 0
+}
+
+body {
+    background-color: #F9F9F9;
+    ;
+}
+
+.top {
+    height: 560px;
+    display: flex;
+    background-color: #D7D4FF;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.top-content{
+    max-width: 389px;
+}
+
+.top-content__title {
+    font-family: 'Merriweather Regular', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    margin-bottom: 17.5px;
+}
+
+.top-content__button{
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
+    background: #6C63FF;
+    margin-top: 45px;
+    padding: 14px 50px 12px 51px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 5px rgba(23, 23, 23, 0.1);
+    transition: all 0.25s;
+}
+
+.top-content__button a{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.top-content__button:hover{
+    background-color: #928BFF;
+}
+
+.top-content__text{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    max-width: 389px;
+    line-height: 32px;
+}
+
+.top-content-img img{
+    width: 500px;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 111px;
+    row-gap: 68px;
+    margin-top: 151px;
+}
+
+.card-component {
+    width: 340px;
+    height: 423px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-content {
+    padding: 24px 28px 31px 30px;
+}
+
+.card-title {
+    font-size: 24px;
+    font-family: 'Merriweather Bold';
+    padding-bottom: 26px;
+    font-weight: 700;
+}
+
+
+.card-text {
+    font-family: 'Lato', sans-serif;
+    padding-top: 26px;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.card-1-bg {
+    background-color: #FF6363;
+    min-height: 222px;
+}
+
+.card-2-bg {
+    background-color: #63ECFF;
+    min-height: 222px;
+}
+
+.card-3-bg {
+    background-color: #F363FF;
+    min-height: 222px;
+}
+
+.card-4-bg {
+    background-color: #63FF73;
+    min-height: 222px;
+}
+
+.card-5-bg {
+    background-color: #FFDD63;
+    min-height: 222px;
+}
+
+.card-6-bg {
+    background-color: #6663FF;
+    min-height: 222px;
+}
